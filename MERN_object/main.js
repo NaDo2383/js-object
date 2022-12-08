@@ -93,3 +93,7 @@ for (let k = 0; k < users.length; k++) {
     }
 }
 console.log(" MongoDB, Express, React, Node  4 heliig 4 uuleng n ezemshsen hereglegch niit", stake4l, "baina");
+
+
+//task5 
+
