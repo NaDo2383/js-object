@@ -56,7 +56,6 @@ const users = [
         points: 40
     }
 ]
-
 //task1 
 let a = prompt("1-7 hoorond too oruulna uu");
 console.log("tanii oruulsan toond hargalzah hereglegch bol", users[a]);
@@ -97,3 +96,13 @@ console.log(" MongoDB, Express, React, Node  4 heliig 4 uuleng n ezemshsen hereg
 
 //task5 
 
+for (let l=0; l<users.length; l++){
+    for(let n=l+1; n<users.length; n++){
+        if(users[l].age>users[n].age){
+            let temp=users[n];
+            users[n]=users[l];
+            users[l]=temp;
+        }
+    }  
+}
+console.log(users.slice(-3));
