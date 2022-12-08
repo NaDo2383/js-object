@@ -105,4 +105,4 @@ for (let l=0; l<users.length; l++){
         }
     }  
 }
-console.log(users.slice(-3));
+console.log("edgeer hereglegch naraas hamgiin ondor nastai hereglegch nar bol", users.slice(-3), "baina");
